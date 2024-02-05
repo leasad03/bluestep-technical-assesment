@@ -1,0 +1,7 @@
+.invalid ~ .invalid-feedback {
+  display: block !important;
+}
+
+.form-control.valid ~ .valid-feedback {
+  display: block !important;
+}
