@@ -9,6 +9,80 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="mt-5">
+      <h1 class="mb-3">Welcome to MyPage!</h1>
+      <h3 class="mb-5">Here you can signup to get access to more content!</h2>
+    </div>
+    <form class="row mb-5 g-3">
+      <h4>Basic information</h4>
+      <hr />
+      <div class="col-md-12">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="jonh@mywebsite.com">
+      </div>
+      <div class="col-md-6">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password">
+      </div>
+      <div class="col-md-6">
+        <label for="confirmPassword" class="form-label">Confirm password</label>
+        <input type="password" class="form-control" id="confirmPassword">
+      </div>
+      <h4 class="mt-5">Contact information</h4>
+      <hr />
+      <div class="col-md-6">
+        <label for="firstName" class="form-label">First name</label>
+        <input type="text" class="form-control" id="firstName" placeholder="Jonh">
+      </div>
+      <div class="col-md-6">
+        <label for="lastName" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="lastName" placeholder="Doe">
+      </div>
+      <div class="col-md-6">
+        <label for="birthDate" class="form-label">Birth date</label>
+        <input type="date" class="form-control" id="birthdate">
+      </div>
+      <div class="col-md-6">
+        <label for="phone" class="form-label">Phone</label>
+        <input type="phone" class="form-control" id="phone" placeholder="(+1) 12 345-6789">
+      </div>
+      <div class="col-12">
+        <label for="addressLine1" class="form-label">Line 1</label>
+        <input type="text" class="form-control" id="addressLine1" placeholder="1234 Main St">
+      </div>
+      <div class="col-12">
+        <label for="addressLine2" class="form-label">Line 2</label>
+        <input type="text" class="form-control" id="addressLine2" placeholder="Apartment, studio, or floor">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      <h5 class="mt-5">Emergency contact</h5>
+      <div class="col-md-6">
+        <label for="ecName" class="form-label">Name</label>
+        <input type="text" class="form-control" id="ecName" placeholder="Mary Hopkins">
+      </div>
+      <div class="col-md-6">
+        <label for="phone" class="form-label">Phone</label>
+        <input type="phone" class="form-control" id="phone" placeholder="(+1) 12 345-6789">
+      </div>
+      <div class="col-12 mt-4">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </div>
+    </form>
+  </div>
 </body>
 </html>
