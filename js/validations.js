@@ -61,8 +61,7 @@ const validateState = function(e) {
   toggleInvalidFeedback(e);
 }
 
-const validateForm = function () {
-  const elements = document.querySelectorAll('.form-control');  
+const validateForm = function (elements) {
   Array.from(elements).forEach(function(element){
     const elementType = element.type;
     switch(elementType) {

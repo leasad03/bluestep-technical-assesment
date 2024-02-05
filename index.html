@@ -16,17 +16,17 @@
       <h1 class="mb-3">Welcome to MyPage!</h1>
       <h3 class="mb-5">Here you can signup to get access to more content!</h2>
     </div>
+    <h4>Basic information</h4>
+    <hr />
     <form id="signup-form" class="row mb-5 g-3">
-      <h4>Basic information</h4>
-      <hr />
       <div class="col-md-12">
         <label for="email" class="form-label">Email *</label>
-        <input type="email" class="form-control" id="email" placeholder="jonh@mywebsite.com">
+        <input type="email" class="form-control" id="email" name="email" placeholder="jonh@mywebsite.com">
         <div class="invalid-feedback">A valid email is required!</div>
       </div>
       <div class="col-md-6">
         <label for="password" class="form-label">Password *</label>
-        <input type="password" class="form-control" id="password">
+        <input type="password" class="form-control" id="password" name="password">
         <div class="invalid-feedback">To set a password is required!</div>
       </div>
       <div class="col-md-6">
@@ -39,58 +39,58 @@
       <hr />
       <div class="col-md-6">
         <label for="firstName" class="form-label">First name *</label>
-        <input type="text" class="form-control" id="firstName" placeholder="Jonh">
+        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Jonh">
         <div class="invalid-feedback">First name is required</div>
       </div>
       <div class="col-md-6">
         <label for="lastName" class="form-label">Last name *</label>
-        <input type="text" class="form-control" id="lastName" placeholder="Doe">
+        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Doe">
         <div class="invalid-feedback">Last name is required</div>
       </div>
       <div class="col-md-6">
         <label for="birthdate" class="form-label">Birthdate *</label>
-        <input type="date" class="form-control" id="birthdate">
+        <input type="date" class="form-control" id="birthdate" name="birthdate">
         <div class="invalid-feedback">Birthdate is required</div>
       </div>
       <div class="col-md-6">
         <label for="phone" class="form-label">Phone *</label>
-        <input type="tel" class="form-control" id="phone" placeholder="(123) 345 6789">
+        <input type="tel" class="form-control" id="phone" name="phone" placeholder="(123) 345 6789">
         <div class="invalid-feedback">A valid phone number is required</div>
       </div>
       <div class="col-12">
         <label for="addressLine1" class="form-label">Line 1 *</label>
-        <input type="text" class="form-control" id="addressLine1" placeholder="1234 Main St">
+        <input type="text" class="form-control" id="addressLine1" name="addressLine1" placeholder="1234 Main St">
         <div class="invalid-feedback">Address line 1 is required</div>
       </div>
       <div class="col-12">
         <label for="addressLine2" class="form-label">Line 2</label>
-        <input type="text" class="form-control" id="addressLine2" placeholder="Apartment, studio, or floor">
+        <input type="text" class="form-control" id="addressLine2" name="addressLine2" placeholder="Apartment, studio, or floor">
       </div>
       <div class="col-md-6">
         <label for="city" class="form-label">City *</label>
-        <input type="text" class="form-control" id="city" placeholder="City">
+        <input type="text" class="form-control" id="city" name="city" placeholder="City">
         <div class="invalid-feedback">A city is required</div>
       </div>
       <div class="col-md-4">
         <label for="state" class="form-label">State *</label>
-        <select id="state" class="form-select">
+        <select id="state" name="state" class="form-select">
           <option selected>Choose...</option>
         </select>
         <div class="invalid-feedback">Please select a state</div>
       </div>
       <div class="col-md-2">
         <label for="zipCode" class="form-label">Zip code *</label>
-        <input type="text" class="form-control" id="zipCode" placeholder="Zip code">
+        <input type="text" class="form-control" id="zipCode" name="zipCode" placeholder="Zip code">
         <div class="invalid-feedback">Zip code is required</div>
       </div>
       <h5 class="mt-5">Emergency contact</h5>
       <div class="col-md-6">
         <label for="ecName" class="form-label">Name</label>
-        <input type="text" class="form-control" id="ecName" placeholder="Mary Hopkins">
+        <input type="text" class="form-control" id="ecName" name="ecName" placeholder="Mary Hopkins">
       </div>
       <div class="col-md-6">
         <label for="phone" class="form-label">Phone</label>
-        <input type="phone" class="form-control" id="phone" placeholder="(+1) 12 345-6789">
+        <input type="phone" class="form-control" id="phone" name="phone" placeholder="(123) 345 6789">
       </div>
       <div class="col-12 mt-4">
         <button type="submit" class="btn btn-primary">Sign in</button>
