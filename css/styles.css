@@ -5,3 +5,11 @@
 .form-control.valid ~ .valid-feedback {
   display: block !important;
 }
+
+span.success {
+  color: green;
+}
+
+span.error {
+  color: red;
+}
