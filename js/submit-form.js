@@ -10,6 +10,8 @@ document.getElementById('signup-form').onsubmit = async function(e) {
       body: JSON.stringify(jsonData),
     }); */
     console.log(jsonData);
+    
+    mockAPI(jsonData);
   } else {
     alert('There are some errors or missing fields. Please check the form!');
   }
