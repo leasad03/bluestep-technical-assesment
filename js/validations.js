@@ -1,3 +1,12 @@
+/**
+ * validation script that helps on validate the inputs on the user signup form
+ * 
+ * single functions that are being called on different possible events:
+ * onblur - checks the input state after leaving it
+ * onchange - checking input validity for selects
+ * onsubmit - doing a general validation, in case the user wants to save without focus on an input first.
+ * 
+ */
 let isValid = true;
 
 function toggleInvalidFeedback(element) {

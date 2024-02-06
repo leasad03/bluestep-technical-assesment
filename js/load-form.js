@@ -1,3 +1,9 @@
+/**
+ * Utility script that loads the US states into the states select.
+ * 
+ * Could be useful to load another info to the signup form...
+ */
+
 const usStates = [
   { name: 'ALABAMA', abbreviation: 'AL'},
   { name: 'ALASKA', abbreviation: 'AK'},

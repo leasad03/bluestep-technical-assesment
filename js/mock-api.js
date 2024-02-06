@@ -15,6 +15,7 @@ function mockAPI(data) {
       return response;
     } 
     
+    // creating user by using the create() library method
     const myUser = UserHelper.create(data);
     let isUserSet = false;
 
@@ -60,13 +61,14 @@ function mockAPI(data) {
         default:
           break;
       }
+      // if there was an error on the assignment, returns a descriptive error for the user
       if (!isUserSet) {
         response.message = `A problem happened on setting user ${key}.`
         return response;
       }
     }
 
-    // saving new user by using the library
+    // saving new user by using the library save() method
     response.result = UserHelper.save();
     // setting up a descriptive message for the customer.
     response.message = response.result ? 'User created successfully!' : 'There was an error while saving the user'; */
